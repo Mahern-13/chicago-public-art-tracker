@@ -16,7 +16,7 @@ class CreatesLocation
     end
 
     @location.save
-    send_text_message
+    # send_text_message
   end
 
   def success?
